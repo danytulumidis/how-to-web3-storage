@@ -3,13 +3,13 @@ import HTWButton from "./shared/HTWButton";
 
 const Hero = (): JSX.Element => {
     return (
-        <section id='hero' className='h-screen'>
+        <section id='hero' className='mb-28'>
             <div className='flex flex-col justify-center gap-10 md:mt-10 lg:flex-row lg:items-center 2xl:m-0'>
-                <div className='flex flex-col items-center text-center mx-4 lg:pl-28 lg:items-start lg:text-left'>
-                    <p className='text-main font-light md:text-2xl lg:text-4xl'>
+                <div className='flex flex-col items-center text-center mx-4 lg:mx-16 lg:items-start lg:text-left'>
+                    <p className='text-main font-light text-2xl lg:text-4xl'>
                         Storage
                     </p>
-                    <h1 className='text-4xl font-bold mb-2 md:text-5xl lg:text-7xl lg:mb-6'>
+                    <h1 className='text-5xl font-bold mb-2 lg:text-7xl lg:mb-6'>
                         How to Web3
                     </h1>
                     <p className='mb-6 lg:text-2xl lg:mb-6'>

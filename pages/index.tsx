@@ -1,7 +1,10 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import About from "../components/About";
 import Hero from "../components/Hero";
+import HowTo from "../components/HowTo";
 import Navbar from "../components/Navbar";
+import Storage from "../components/Storage";
 
 const Home: NextPage = () => {
     return (
@@ -18,6 +21,9 @@ const Home: NextPage = () => {
             <main className='bg-background text-white'>
                 <Navbar />
                 <Hero />
+                <About />
+                <Storage />
+                <HowTo />
             </main>
 
             <footer></footer>

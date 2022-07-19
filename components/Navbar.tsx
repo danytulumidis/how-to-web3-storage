@@ -12,7 +12,7 @@ const Navbar = (): JSX.Element => {
     };
 
     return (
-        <nav className='mx-auto flex flex-wrap md:flex-nowrap p-5 flex-row items-center text-white sticky top-0 z-50'>
+        <nav className='mx-auto flex flex-wrap md:flex-nowrap p-5 flex-row items-center text-white'>
             <Link href={"/"}>
                 <a
                     className='flex title-font font-medium items-center text-white'
