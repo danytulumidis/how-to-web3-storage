@@ -14,11 +14,19 @@ const Hero = (): JSX.Element => {
                     </h1>
                     <p className='mb-6 lg:text-2xl lg:mb-6'>
                         What, Why and how to store data in a decentralized way.
-                        Easy explained
+                        Explained in easy words!
                     </p>
                     <div className='flex justify-center gap-4'>
-                        <HTWButton text='Try it' main={true} />
-                        <HTWButton text='Explanation' main={false} />
+                        <HTWButton
+                            text='Try it'
+                            main={true}
+                            linkRef='#howtostorage'
+                        />
+                        <HTWButton
+                            text='Explanation'
+                            main={false}
+                            linkRef='#storage'
+                        />
                     </div>
                 </div>
                 <div className='md:m-12 lg:m-0'>

@@ -1,6 +1,6 @@
 const HowTo = (): JSX.Element => {
     return (
-        <section id='storage' className='mx-10 md:mx-16'>
+        <section id='howtostorage' className='mx-10 md:mx-16'>
             <h1 className='text-4xl font-bold mb-2 md:text-5xl lg:text-7xl lg:mb-5'>
                 How to Storage
             </h1>

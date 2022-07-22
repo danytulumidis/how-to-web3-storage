@@ -34,7 +34,7 @@ const Storage = (): JSX.Element => {
                         height={400}
                     />
                 </div>
-                <div className='mb-36'>
+                <div className='mb-36 xl:mb-0'>
                     <h1 className='text-2xl font-bold text-left mb-2 md:text-3xl lg:text-5xl'>
                         Upload via IPFS
                     </h1>
@@ -54,7 +54,7 @@ const Storage = (): JSX.Element => {
                         height={400}
                     />
                 </div>
-                <div className='mb-36'>
+                <div className='mb-36 xl:mb-0'>
                     <h1 className='text-2xl font-bold text-left mb-2 md:text-3xl lg:text-5xl'>
                         Content ID
                     </h1>
