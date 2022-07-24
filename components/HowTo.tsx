@@ -27,7 +27,6 @@ const HowTo = (): JSX.Element => {
                 const ImgHash = `ipfs://${resFile.data.IpfsHash}`;
                 setFileLink(ImgHash);
             } catch (error) {
-                console.log("Error sending File to IPFS: ");
                 console.log(error);
             }
         }
