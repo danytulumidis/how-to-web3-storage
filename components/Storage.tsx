@@ -3,11 +3,17 @@ import Image from "next/image";
 const Storage = (): JSX.Element => {
     return (
         <section id='storage' className='mx-10 md:mx-16 mb-28'>
-            <h1 className='text-4xl font-bold mb-16 md:text-5xl lg:text-7xl lg:mb-5'>
+            <h1
+                className='text-4xl font-bold mb-16 md:text-5xl lg:text-7xl lg:mb-5'
+                data-aos='zoom-in'
+            >
                 How to <span className='text-main'>upload</span> a File
             </h1>
             <div className='inline-block lg:block xl:flex xl:items-center'>
-                <div className='mb-8 md:p-16 lg:flex lg:justify-center'>
+                <div
+                    className='mb-8 md:p-16 lg:flex lg:justify-center'
+                    data-aos='fade-right'
+                >
                     <Image
                         src='/storage1.svg'
                         alt='Storage'
@@ -15,7 +21,7 @@ const Storage = (): JSX.Element => {
                         height={400}
                     />
                 </div>
-                <div className='mb-36 xl:mb-0'>
+                <div className='mb-36 xl:mb-0' data-aos='fade-left'>
                     <h1 className='text-2xl font-bold text-left mb-2 md:text-3xl lg:text-5xl'>
                         Choose a File
                     </h1>
@@ -26,7 +32,10 @@ const Storage = (): JSX.Element => {
                 </div>
             </div>
             <div className='inline-block xl:flex xl:items-center xl:flex-row-reverse'>
-                <div className='mb-8 md:p-16 lg:flex lg:justify-center'>
+                <div
+                    className='mb-8 md:p-16 lg:flex lg:justify-center'
+                    data-aos='fade-left'
+                >
                     <Image
                         src='/storage2.svg'
                         alt='Storage'
@@ -34,7 +43,7 @@ const Storage = (): JSX.Element => {
                         height={400}
                     />
                 </div>
-                <div className='mb-36 xl:mb-0'>
+                <div className='mb-36 xl:mb-0' data-aos='fade-right'>
                     <h1 className='text-2xl font-bold text-left mb-2 md:text-3xl lg:text-5xl'>
                         Upload via IPFS
                     </h1>
@@ -46,7 +55,10 @@ const Storage = (): JSX.Element => {
                 </div>
             </div>
             <div className='inline-block xl:flex xl:items-center'>
-                <div className='mb-8 md:p-16 lg:flex lg:justify-center'>
+                <div
+                    className='mb-8 md:p-16 lg:flex lg:justify-center'
+                    data-aos='fade-right'
+                >
                     <Image
                         src='/storage3.svg'
                         alt='Storage'
@@ -54,7 +66,7 @@ const Storage = (): JSX.Element => {
                         height={400}
                     />
                 </div>
-                <div className='mb-36 xl:mb-0'>
+                <div className='mb-36 xl:mb-0' data-aos='fade-left'>
                     <h1 className='text-2xl font-bold text-left mb-2 md:text-3xl lg:text-5xl'>
                         Content ID
                     </h1>
@@ -66,7 +78,10 @@ const Storage = (): JSX.Element => {
                 </div>
             </div>
             <div className='inline-block xl:flex xl:items-center xl:flex-row-reverse'>
-                <div className='mb-8 md:p-16 lg:flex lg:justify-center'>
+                <div
+                    className='mb-8 md:p-16 lg:flex lg:justify-center'
+                    data-aos='fade-left'
+                >
                     <Image
                         src='/storage4.svg'
                         alt='Storage'
@@ -74,7 +89,7 @@ const Storage = (): JSX.Element => {
                         height={400}
                     />
                 </div>
-                <div className=''>
+                <div className='' data-aos='fade-right'>
                     <h1 className='text-2xl font-bold text-left mb-2 md:text-3xl lg:text-5xl'>
                         File is everywhere
                     </h1>

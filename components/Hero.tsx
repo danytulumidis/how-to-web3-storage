@@ -5,7 +5,10 @@ const Hero = (): JSX.Element => {
     return (
         <section id='hero' className='mb-28'>
             <div className='flex flex-col justify-center gap-10 md:mt-10 lg:flex-row lg:items-center 2xl:m-0'>
-                <div className='flex flex-col items-center text-center mx-4 lg:mx-16 lg:items-start lg:text-left'>
+                <div
+                    className='flex flex-col items-center text-center mx-4 lg:mx-16 lg:items-start lg:text-left'
+                    data-aos='fade-right'
+                >
                     <p className='text-main font-light text-2xl lg:text-4xl'>
                         Storage
                     </p>
@@ -29,7 +32,7 @@ const Hero = (): JSX.Element => {
                         />
                     </div>
                 </div>
-                <div className='md:m-12 lg:m-0'>
+                <div className='md:m-12 lg:m-0' data-aos='fade-left'>
                     <Image
                         src='/hero.svg'
                         alt='hero'

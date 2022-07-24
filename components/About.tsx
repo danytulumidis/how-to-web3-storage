@@ -1,7 +1,10 @@
 const About = (): JSX.Element => {
     return (
         <section id='about' className='mb-28'>
-            <div className='flex flex-col items-start mx-10 md:mx-16'>
+            <div
+                className='flex flex-col items-start mx-10 md:mx-16'
+                data-aos='fade-left'
+            >
                 <h1 className='text-4xl font-bold mb-2 md:text-5xl lg:text-7xl lg:mb-5'>
                     About
                 </h1>
@@ -18,7 +21,10 @@ const About = (): JSX.Element => {
                 </p>
             </div>
 
-            <div className='flex flex-col items-start mx-10 mt-10 md:mx-16'>
+            <div
+                className='flex flex-col items-start mx-10 mt-10 md:mx-16'
+                data-aos='fade-right'
+            >
                 <h1 className='text-4xl font-bold text-left mb-2 lg:text-5xl lg:mb-5'>
                     Centralized <span className='text-main'>Storage</span>
                 </h1>
@@ -39,7 +45,10 @@ const About = (): JSX.Element => {
                 </p>
             </div>
 
-            <div className='flex flex-col items-start mx-10 mt-10 md:mx-16 md:mt-36'>
+            <div
+                className='flex flex-col items-start mx-10 mt-10 md:mx-16 md:mt-36'
+                data-aos='fade-left'
+            >
                 <h1 className='text-4xl font-bold text-left mb-2 lg:text-5xl lg:mb-5'>
                     Decentralized <span className='text-main'>Storage</span>
                 </h1>
@@ -68,8 +77,8 @@ const About = (): JSX.Element => {
                 <p className='mb-6 text-left lg:text-2xl'>
                     IPFS stands for InterPlanetary File System. In easy words
                     its a protocol that is used to upload your files. Under the
-                    hood there are more things but that would be too technical
-                    for this website.
+                    hood there are more things but that would be go to far into
+                    technical detail.
                     <br />
                     <br />
                     But if you are interested in it I highly recommend checking

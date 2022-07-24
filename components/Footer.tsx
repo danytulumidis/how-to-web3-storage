@@ -7,7 +7,10 @@ const Footer = (): JSX.Element => {
 
     return (
         <footer className='bg-background text-white pt-28 px-10 md:px-16'>
-            <h1 className='text-4xl font-bold mb-2 md:text-5xl lg:text-7xl lg:mb-5'>
+            <h1
+                className='text-4xl font-bold mb-2 md:text-5xl lg:text-7xl lg:mb-5'
+                data-aos='zoom-in'
+            >
                 How to <span className='text-main'>Web3</span> - Easy explained
             </h1>
             <p className='text-left pt-3 lg:text-2xl'>

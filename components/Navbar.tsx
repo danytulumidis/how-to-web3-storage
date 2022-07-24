@@ -52,23 +52,12 @@ const Navbar = (): JSX.Element => {
                 }   w-full md:inline-flex lg:flex-grow lg:w-auto mt-6 md:mt-0`}
             >
                 <div className='lg:inline-flex md:flex-row md:m-auto md:w-auto w-full flex flex-col items-center gap-3 md:h-auto text-l md:text-md xl:text-lg'>
-                    <Link href={"#home"}>
-                        <a
-                            className={
-                                router.asPath == "/#home"
-                                    ? "mr-5 gradient-rainbow-text"
-                                    : "mr-5 hover:gradient-rainbow-text"
-                            }
-                        >
-                            Home
-                        </a>
-                    </Link>
                     <Link href={"#about"}>
                         <a
                             className={
                                 router.asPath == "/#about"
-                                    ? "mr-5 gradient-rainbow-text"
-                                    : "mr-5 hover:gradient-rainbow-text"
+                                    ? "mr-5"
+                                    : "mr-5 hover:text-main"
                             }
                         >
                             About
@@ -78,8 +67,8 @@ const Navbar = (): JSX.Element => {
                         <a
                             className={
                                 router.asPath == "/#howtostorage"
-                                    ? "mr-5 gradient-rainbow-text"
-                                    : "mr-5 hover:gradient-rainbow-text"
+                                    ? "mr-5"
+                                    : "mr-5 hover:text-main"
                             }
                         >
                             How to Storage
